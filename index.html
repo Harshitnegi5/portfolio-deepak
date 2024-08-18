@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Deepak.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About me</a>
+            <a href="#services">Skills</a>
+            <a href="#">Interests</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content" id="home">
+            <h1>Hi, I'm Deepak </h1>
+            <h3>Programmer</h3>
+            <p>Hey! Myself Deepak singh.I'm a programmer from India .I'm into Data Structure And Algorithms &
+                Front-End Development. </p>
+            <div class="btn-box">
+                <a href="#">Know me!</a>
+                <a href="#">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-sec">
+            <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://github.com/deepaksingh001" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/___deepakmehra_____/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/in/deepak-singh-63828a240/" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
+        </div>
+    </section>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="new" src="./images/deepak.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Welcome to my corner of the web!! I'm a passionate front-end developer with a knack for crafting
+                        immersive digital experiences. With a solid foundation in Data Structures and Algorithms (DSA),
+                        I bring a unique perspective to my development process, ensuring efficiency and scalability in
+                        every project. From sleek user interfaces to seamless interactions, I thrive on bringing ideas
+                        to life through code. With a relentless curiosity and a dedication to staying at the forefront
+                        of emerging technologies, I'm committed to pushing boundaries and delivering exceptional
+                        results. Dive into my portfolio and discover the fusion of creativity and functionality that
+                        drives my work.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('tech')">Tech Stack</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Web Development</span><br>Front-End app Development</li>
+                            <li><span>Programmer</span><br>Competitive Programming<br>Data Structure/Algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="tech">
+                        <ul>
+                            <li><span>Frameworks</span><br>Bootstrap5<br>Tailwind CSS<br>React</li>
+                            <li><span>Designing</span><br>Canva<br>WebFlow</li>
+                            <li><span>IDE</span><br>Visual Studio Code</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>High School from cynthia senior secondary school</li>
+                            <li><span>2021</span><br>Intermediate from cynthia senior secondary school</li>
+                            <li><span>2022</span><br>B.Tech from Graphic era university.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis corrupti, hic,
+                        quia ratione dolor inventore animi atque reiciendis ex quidem quo.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Problem Solving</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis corrupti, hic,
+                        quia ratione dolor inventore animi atque reiciendis ex quidem quo.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis corrupti, hic,
+                        quia ratione dolor inventore animi atque reiciendis ex quidem quo.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container-last">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@deepaksingh33276@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 0203030409</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright &copy; Deepak | Developed by Deepak singh</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</body>
+
+</html>
